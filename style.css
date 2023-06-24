@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav1{
+    width: 100%;
+    height: 5vh;
+    background-color: #302F2F;
+    display: flex;
+    justify-content: end;
+}
+.nav1 h1{
+    font-size: 1.5vmax;
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    padding: 0.5vmax;
+    z-index: 99;
+    cursor: pointer;
+}
+.full{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: -100%;
+    background-color: white;
+    transition: all linear 0.5s;
+}
+.f-left{
+  
+    width: 50%;
+    height: 100%;
+    border-right :1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.content a{
+    text-decoration: none;
+    font: 400 1.4vmax "montserrat";
+    color: black;
+}
+.c-left{
+    padding: 2vmax;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.c-right{
+    padding: 2vmax;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 2vmax;
+    margin: 0 0.2vmax;
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.line h4{
+    font: 500 1vmax "montserrat";
+    letter-spacing: 5px;
+}
+.f-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img{
+    width: 60%;
+    height: 80%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61394864291bae3f6922157e/1631913148074-MBRXPKFBZKKOVT2BTZL3/the-coast-kit-website-graphic-design-squarespace-social-media-templates-marketing-vancouver-home-menu.gif?format=750w);
+    background-position: center;
+    background-size: cover;
+}
+/* ==================================================== */
+
+.page1{
+    width: 100%;
+    height: 95vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61394864291bae3f6922157e/7c5a9e4d-b012-4354-ae1f-f5616f0ce0af/the-coast-kit-website-template-medellin-creative-content-creator-top-banner.jpg?format=1500w);
+}
+.nav2{
+    width: 100%;
+    height: 15vh;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    padding: 0 3vmax;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2 img{
+    height: 7vmax;
+}
+.n2-middle{
+    display: flex;
+    gap: 30px;
+    
+}
+.n2-middle h3{
+    font: 600 0.8vmax "montserrat";
+    letter-spacing: 1.5px;
+
+}
+.n2-end i{
+    font-size: 1.2vmax;
+    margin-right: 0.5vmax;
+}
+.p1-center{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    color: white;
+}
+.p1c-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1c-left h3{
+    font: 600 1.2vmax "montserrat";
+    letter-spacing: 3px;
+   text-align: center;
+    line-height: 1.5vmax;
+}
+.p1c-left h1{
+    font: 400 3vmax "belleza";
+    margin: 2vmax 0;
+}
+.p1c-left span button{
+    font: 600 1vmax "montserrat";
+    letter-spacing: 1.5px;
+    margin-right: 1vmax;
+    padding: 0.8vmax;
+    margin-bottom: 5vmax;
+    cursor: pointer;
+}
+.p1c-left span button:nth-child(1):hover{
+   background-color: transparent;
+   transition: all linear 0.25s;
+   border: 2px solid white;
+   color: white;
+}
+.p1c-left span button:nth-child(2){
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+ }
+.p1c-left span button:nth-child(2):hover{
+    background-color: white;
+    border: 2px solid white;
+    transition: all linear 0.25s;
+    color: black;
+ }
+
+ .p1c-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: red; */
+ }
+ .p1c-right img{
+    height: 60vh;
+ }
+ /* =============================================== */
+ .page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* padding-top: 5vmax; */
+    background-color: #EBE3DE;
+ }
+ 
+ .p2-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .p2-left img{
+    height: 75vh;
+ }
+ .p2-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+ }
+ .p2-right h2{
+    font: 400 3vmax "belleza";
+    width: 70%;
+    line-height: 3.5vmax;
+ }
+ .p2-right p{
+    font: 600 0.9vmax "roboto";
+    letter-spacing:3px;
+    width:60%;
+    line-height: 2vmax;
+    margin: 1vmax 0;
+ }
+ .p2-right li{
+    font: 400 1.5vmax "belleza";
+    line-height: 2.5vmax;
+ }
+ .p2-right button{
+    font: 500 1vmax "montserrat";
+    letter-spacing: 2px;
+    padding: 0.8vmax;
+    margin-top: 2vmax;
+    background-color: #312f2d;
+    color: white;
+    border: none;
+ }
+/* =============================================== */
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.p3-left{
+    width: 50%;
+    height: 100%;
+    padding-top: 5vmax;
+    padding-left: 15vmax;
+
+}
+.p3l-content{
+    width: 90%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+}
+.p3l-content p{
+    width: 85%;
+    font: 600 0.9vmax "roboto";
+    letter-spacing: 3px;
+    line-height: 2vmax;
+}
+.p3l-content h2{
+    font:500 2vmax "belleza";
+}
+.btn button{
+    font: 600 0.8vmax "montserrat";
+    padding: 0.8vmax;
+    letter-spacing: 2px;
+    margin-right: 1vmax;
+    border: none;
+    color: white;
+    background-color: #302F2F;
+    cursor: pointer;
+    transition: all linear 0.25s;
+}
+.btn button:nth-child(2){
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.btn button:nth-child(2):hover{
+    background-color: #302F2F;
+    color: white;
+}
+.btn button:nth-child(1):hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.p3-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#circle{
+    height: 8vmax;
+    position: absolute;
+    top: 0;
+    left: 8%;
+}
+.p3r-img{
+    width: 70%;
+    height: 85%;
+    overflow-y: auto;
+    /* background-color: wheat; */
+}
+
+.p3r-img::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+  /* Track */
+  .p3r-img::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .p3r-img::-webkit-scrollbar-thumb {
+    background: #855034;
+  }
+  
+  /* Handle on hover */
+  .p3r-img::-webkit-scrollbar-thumb:hover {
+    background: #a4745a;
+
+  }
+.p3r-img img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.p3-right h4{
+    font: 500 0.8vmax "montserrat";
+    letter-spacing: 3px;
+  padding-left: 11vmax;
+  border-bottom: 1px solid black;
+  
+}
+/* ============================================ */
+
+.page4{
+    width: 100%;
+    height: 120vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61394864291bae3f6922157e/b7adbc57-2627-4648-b032-dedb76b59263/the-coast-kit-website-graphic-design-squarespace-social-media-templates-marketing-vancouver-template-faqs-banner.jpg?format=2500w);
+    background-position: center;
+    background-size: cover;
+   
+}
+.p4-top{
+    width: 100%;
+    height: 35vh;
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p4-top h3{
+    font: 400 0.9vmax "roboto";
+    letter-spacing: 4px;
+}
+.p4-top h1{
+    font: 400 3vmax "belleza";
+    letter-spacing: 2px;
+}
+.p4-bottom{
+    width: 100%;
+    height: 85vh;
+    color: white;
+    padding: 0 10vmax;
+    display: flex;
+}
+.p4b-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.p4b-left ul{
+    list-style: none;
+}
+.p4b-left li{
+    font: 400 2.5vmax "belleza";
+    line-height: 3.5vmax;
+    cursor: pointer;
+}
+#underline{
+   border-bottom: 1px solid white ;
+}
+.p4b-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.p4b-right p{
+    font: 400 1vmax "roboto";
+    line-height: 2vmax;
+    letter-spacing: 2px;
+    margin-bottom: 3.5vmax;
+}
+.p4b-right button{
+    font: 500 0.9vmax "roboto";
+    letter-spacing: 2px;
+    padding: 0.8vmax;
+    margin-bottom: 3vmax;
+    cursor: pointer;
+    border: none;
+    transition: all linear 0.25s;
+}
+.p4b-right button:hover{
+    background-color: rgb(222, 213, 198);
+}
+/* ================================================ */
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p5-top h3{
+    font: 600 1.1vmax "roboto";
+    letter-spacing: 3px;
+    margin-bottom: 1.5vmax;
+    color: #855034;
+    text-align: center;
+}
+.p5-top h1{
+    font: 400 3vmax "belleza";
+    text-align: center;
+    opacity: 0.9;
+
+}
+.p5-bottom img{
+    height: 65vh;
+}
+/* ------------------------------------------------ */
+.page6{
+    width: 100%;
+    height: 120vh;
+}
+.p6-top{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #EAE3DC;
+}
+.p6t-top h1{
+    font: 400 4.5vmax "belleza";
+    color: white;
+}
+.p6t-bottom{
+    padding: 0 12vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p6t-bottom p{
+    text-align: center;
+    font: 500 0.9vmax "roboto";
+    line-height: 1.8vmax;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-bottom: 2vmax;
+}
+.p6t-bottom span h4{
+   text-align: center;
+   font: 500 1vmax "roboto";
+   letter-spacing: 2px;
+   color: #a4745a;
+
+}
+.p6t-bottom span h2{
+    text-align: center;
+    font: 400 2.5vmax "belleza";
+    margin: 1vmax 0;
+   color: #ba886d;
+
+
+}
+
+.p6-bottom{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61394864291bae3f6922157e/01c44e81-b77b-4dc2-a1bf-d59ff5dbc7f8/the-coast-kit-squarespace-website-templates-social-media-templates-marketing-medellin-social-top-tutorial.jpg?format=1500w);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.p6b-center{
+    width: 600px;
+    height: 260px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.p6b-center h1{
+    font: 400 2.8vmax "belleza";
+    margin-bottom: 1vmax;
+    opacity: .8;
+}
+
+.p6b-center h3{
+    color: #a4745a;
+    font: 500 1.1vmax "roboto";
+    letter-spacing: 2px;
+
+}
+
+/* ============================================== */
+
+.page7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 6vmax 15vmax;
+    background-color: #F9F8F5;
+}
+.p7-left{
+    width: 50%;
+    height: 100%;
+}
+.p7-left img{
+    height: 75vh;
+}
+
+.p7-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding-left: 3vmax;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p7r-content{
+    padding: 2vmax 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.p7r-content h3{
+    font: 500 1.1vmax "roboto";
+    letter-spacing: 3px;
+    transform: translateY(1.5vmax);
+    color:#855034;
+
+}
+.p7r-content h2{
+    font: 500 2.5vmax "belleza";
+    letter-spacing: 0px;
+    opacity: .9;
+
+}
+.p7r-content p{
+    font: 500 1vmax "roboto";
+    opacity: .8;
+    text-align: center;
+    line-height: 1.5vmax;
+    letter-spacing: 2px;
+
+}
+.p7r-content button{
+    padding: 0.8vmax 1.2vmax;
+    font: 600 0.9vmax "roboto";
+    letter-spacing: 2px;
+    border: none;
+    background-color: #312f2d;
+    transition: all linear 0.25s;
+    cursor: pointer;
+    color: white;
+}
+.p7r-content button:hover{
+    background-color: #605f5f;
+}
+/* ====================================================== */
+.page8{
+    width: 100%;
+    height: 80vh;
+    background-color: #302F2F;
+}
+.p8-top{
+    width: 100%;
+    height: 26vh;
+    display: flex;
+}
+.box{
+    width: 12.5%;
+    height: 100%;
+}
+.box img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.p8-bottom{
+    width: 100%;
+    height: 54vh;
+    padding: 0vmax 15vmax;
+}
+.p8b-top{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#anchore{
+    display: flex;
+    flex-direction: column;
+}
+#anchore a{
+    font: 400 0.9vmax "roboto";
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.8vmax;
+    color: white;
+}
+.p8b-top img{
+    height: 7vmax;
+}
+
+#name h4{
+    font: 400 0.9vmax "roboto";
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.8vmax;
+    color: white;
+    text-align: end;
+    margin-bottom: 5vmax;
+}
+#name h3{
+    font: 400 0.9vmax "roboto";
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.8vmax;
+    text-align: end;
+    color: white;
+}
+.p8-bottom p{
+    font: 400 0.9vmax "roboto";
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.8vmax;
+    text-align: center;
+    color: white;
+}
