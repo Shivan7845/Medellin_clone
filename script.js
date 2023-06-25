@@ -199,7 +199,7 @@ gsap.from(".p6-bottom",{
         trigger : ".p6-bottom",
         scroller : "body",
         // markers : true,
-        start : "top 60%",
+        start : "top 80%",
         end : "top 30%",
         scrub : 4,
     }

@@ -13,6 +13,7 @@ html,body{
     background-color: #302F2F;
     display: flex;
     justify-content: end;
+   
 }
 .nav1 h1{
     font-size: 1.5vmax;
@@ -28,12 +29,12 @@ html,body{
     height: 100vh;
     display: flex;
     position: absolute;
-    top: -100%;
+    top: -110%;
+    z-index: 98;
     background-color: white;
     transition: all linear 0.5s;
 }
 .f-left{
-  
     width: 50%;
     height: 100%;
     border-right :1px solid black;
@@ -117,12 +118,12 @@ html,body{
 .page1{
     width: 100%;
     height: 95vh;
+    padding-top: 5vh;
     background-image: url(https://images.squarespace-cdn.com/content/v1/61394864291bae3f6922157e/7c5a9e4d-b012-4354-ae1f-f5616f0ce0af/the-coast-kit-website-template-medellin-creative-content-creator-top-banner.jpg?format=1500w);
 }
 .nav2{
     width: 100%;
     height: 15vh;
-    /* background-color: red; */
     color: white;
     display: flex;
     padding: 0 3vmax;
@@ -329,6 +330,7 @@ html,body{
     height: 8vmax;
     position: absolute;
     top: 0;
+    z-index: 99;
     left: 8%;
 }
 .p3r-img{
@@ -667,6 +669,7 @@ html,body{
 #anchore{
     display: flex;
     flex-direction: column;
+    
 }
 #anchore a{
     font: 400 0.9vmax "roboto";
@@ -703,4 +706,291 @@ html,body{
     line-height: 1.8vmax;
     text-align: center;
     color: white;
+}
+@media(max-width:600px){
+    .nav1 i{
+        font-size: 4vmax;
+        padding: 0 2vmax;
+       
+    }
+    .full{
+        flex-direction: column;
+    }
+    .f-left{
+        width: 100%;
+        margin-top: 4vmax;
+    border-right :0px solid black;
+
+    }
+    .content a{
+        font-size: 2vmax;
+    }
+    .icons i{
+        font-size: 3vmax;
+        margin:0 3vmax;
+    }
+    .line h4{
+        font-size: 1.8vmax;
+        text-align: center;
+    }
+    .f-right{
+        width: 100%;
+
+    }
+    .img{
+        width: 70%;
+    }
+    /* =========================================== */
+    .nav2{
+        display: none;
+    }
+    .p1-center{
+        flex-direction: column;
+    }
+    .p1c-left{
+        width: 100%;
+    }
+    .p1c-left h3{
+        margin-top: 2vmax;
+        font-size: 1.8vmax;
+        line-height: 3vmax;
+    }
+    .p1c-left h1{
+        font-size: 4vmax;
+    }
+    .p1c-left span button{
+        font-size: 1.5vmax;
+        margin-top: 2vmax;
+    }
+    .p1c-right{
+        width: 100%;
+    }
+    .p1c-right img{
+        height: 40vh;
+    }
+    /* ============================================= */
+    .page2{
+        flex-direction: column;
+    }
+    .p2-left{
+        width: 100%;
+    }
+    .p2-left img{
+        height: 55vh;
+    }
+    .p2-right{
+        width: 100%;
+        padding-left: 5vmax;
+    }
+    .p2-right h2{
+        font-size: 4vmax;
+        line-height: 4vmax;
+        width: 90%;
+    }
+    .p2-right p{
+        width: 80%;
+        margin: 2vmax 0;
+        font-size: 1.2vmax;
+    }
+    .p2-right li{
+        font-size: 2vmax;
+    }
+    .p2-right button{
+        font-size: 1.8vmax;
+    }
+    /* ========================================= */
+
+    .page3{
+        flex-direction: column;
+    }
+    .p3-left{
+        width: 100%;
+        padding-left: 5vmax;
+    }
+    .p3l-content{
+        width: 100%;
+    }
+    .p3l-content p{
+        width: 90%;
+        font-size: 1.5vmax;
+        letter-spacing: 2px;
+        line-height: 3vmax;
+    }
+    .p3l-content h2{
+        font-size: 3vmax;
+        margin: 2vmax 0;
+    }
+    .btn button{
+        font-size: 1.2vmax;
+    }
+    .p3-right{
+        width: 100%;
+    }
+    #circle{
+        height: 15vmax;
+        top: -2%;
+    }
+    .p3-right h4{
+        font-size: 1.5vmax;
+    }
+    .p3r-img{
+        height: 70%;
+        width: 80%;
+        transform: translateY(-10vmax);
+    }
+    /* ============================================ */
+    .page4{
+        margin-top: 25vmax;
+    }
+    .p4-top{
+        height: 20vh;
+    }
+    .p4-top h3{
+        font-size: 1.5vmax;
+        margin-bottom: 1vmax;
+        letter-spacing: 3px;
+    }
+    .p4-bottom{
+        flex-direction: column;
+        padding: 0 5vmax;
+    }
+    .p4b-left{
+        width: 100%;
+        justify-content: start;
+    }
+    .p4b-left li{
+        font-size: 4vmax;
+        line-height: 5vmax;
+       
+    }
+    .p4b-right{
+        width: 100%;
+    }
+    .p4b-right p{
+        font-size: 2vmax;
+        line-height: 3vmax;
+    }
+    .p4b-right button{
+        font-size: 2vmax;
+    }
+    /* ============================================ */
+    .page5{
+        height: 60vh;
+    }
+    .p5-top h3{
+       font-size: 1.5vmax;
+    }
+    .p5-bottom img{
+        height: 40vh;
+    }
+    /* ============================================== */
+    .page6{
+
+    }
+    .p6-top h1{
+        font-size: 6vmax;
+    }
+    .p6t-bottom{
+        padding: 0 5vmax;
+    }
+    .p6t-bottom p{
+        font-size: 1.5vmax;
+        line-height: 2.5vmax;
+    }
+    .p6t-bottom span h4{
+        font-size: 1.8vmax;
+        margin-top: 2vmax;
+    }
+    .p6t-bottom span h2{
+        font-size: 3.5vmax;
+    }
+    /* ============================================= */
+    .p6b-center{
+        width: 300px;
+        height: 130px;
+    }
+    .p6b-center h1{
+        font-size: 3.5vmax;
+    }
+    .p6b-center h3{
+        font-size: 1.5vmax;
+        margin-top: 1.5vmax;
+    }
+    /* =============================================== */
+    .page7{
+        flex-direction: column;
+        padding: 0 3vmax;
+    }
+    .p7-left{
+        width: 100%;
+    }
+    .p7-left img{
+        height: 50vh;
+    }
+    .p7-right{
+        width: 100%;
+        padding-left: 0;
+    }
+    .p7r-content h3{
+        font-size: 1.8vmax;
+        margin-bottom: 2vmax;
+        letter-spacing: 2px;
+    }
+    .p7r-content h2{
+        font-size: 4vmax;
+        margin: 2vmax 0;
+    }
+    .p7r-content p{
+        font-size: 2vmax;
+        width: 90%;
+        line-height: 2.5vmax;
+        margin-bottom: 2vmax;
+    }
+    .p7r-content button{
+        font-size: 1.5vmax;
+    }
+    /* =========================================== */
+    .page8{
+        height: 270vh;
+    }
+    .p8-top{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+     .p8-bottom{
+        padding: 1vmax 2vmax;
+        padding-top: 185vh;
+     }
+     .p8b-top{
+        flex-direction: row;
+       align-items: start;
+       position: relative;
+     }
+     #anchore a{
+        font-size: 1.5vmax;
+        line-height: 2.5vmax;
+     }
+     .p8b-top img{
+        height: 10vmax;
+     }
+     #name h4{
+        position: absolute;
+        text-align: start;
+        font-size: 1.5vmax;
+        line-height: 2.5vmax;
+        top: 60%;
+        left: 0%;
+     }
+     #name h3{
+        display: none;
+     }
+     .p8-bottom p{
+        width: 95%;
+        font-size: 1.5vmax;
+        line-height: 2.5vmax;
+     }
+  
+      
 }
