@@ -9,11 +9,12 @@ menu.addEventListener("click" ,function(){
      
         full.style.top = 0;
         menu.innerHTML = `<i class="ri-close-fill"></i>`
+        menu.style.color = "black";
         flag = 1;
     }else{
         
         full.style.top = "-100%";
-
+        menu.style.color = "white";
         menu.innerHTML = `<i class="ri-menu-fill"></i>`;
         flag = 0;
     }
